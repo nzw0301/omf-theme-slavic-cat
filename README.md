@@ -14,7 +14,7 @@ shell for OS X, Linux, and the rest of the family
 Once fisherman is installed:
 
 ```
-fisher install nzw0301/omf-theme-slavic-cat-with-c
+fisher install nzw0301/theme-slavic-cat-with-c
 ```
 
 [Forked from slavic-cat](https://github.com/yangwao/omf-theme-slavic-cat), which is [forked from Toaster](https://github.com/oh-my-fish/theme-toaster)
