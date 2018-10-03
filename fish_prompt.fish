@@ -1,4 +1,5 @@
-# forked from Toaster https://github.com/oh-my-fish/theme-toaster
+# forked from yangwao/omf-theme-slavic-cat https://github.com/yangwao/omf-theme-slavic-cat
+# which is also forked from Toaster https://github.com/oh-my-fish/theme-toaster
 
 set __slavic_color_orange FD971F
 set __slavic_color_blue 6EC9DD
@@ -9,6 +10,7 @@ set __slavic_color_grey 554F48
 set __slavic_color_white F1F1F1
 set __slavic_color_purple 9458FF
 set __slavic_color_lilac AE81FF
+
 
 function __slavic_color_echo
   set_color $argv[1]
@@ -88,5 +90,9 @@ function fish_prompt
   __slavic_git_status
 
   echo
-  __slavic_color_echo $__slavic_color_pink "⫸  "
+  __slavic_color_echo $__slavic_color_pink '∫  '
+end
+
+function fish_right_prompt
+    echo ' ['(date +%H:%M:%S)'] '
 end
