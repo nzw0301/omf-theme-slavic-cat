@@ -71,6 +71,9 @@ function __slavic_git_status
 end
 
 function fish_prompt
+  __slavic_color_echo $__slavic_color_blue (hostname | cut -d . -f 1)
+
+  printf ' '
   __slavic_color_echo $__slavic_color_purple (prompt_pwd)
   __slavic_git_status
 
