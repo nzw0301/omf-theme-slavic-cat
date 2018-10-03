@@ -1,26 +1,23 @@
 # Slavic Cat
 
-A fish (shell) theme with a Slavic cat and a rainbow that signifies git status.
+A fish (shell) theme with a Slavic cat and a rainbow that signifies git statuswith clock.
 
-
-[![Oh My Fish](https://img.shields.io/badge/Framework-Oh_My_Fish-blue.svg?style=flat)](https://github.com/oh-my-fish/oh-my-fish)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](/LICENSE)
 
-![Slavic cat in action](https://github.com/yangwao/omf-theme-slavic-cat/blob/master/screenshot.png?raw=true)
-
-
-## Instalation
+## Installation
 
 #### Requirements
 * [Fish shell](https://github.com/fish-shell/fish-shell) - a smart and user-friendly command line
 shell for OS X, Linux, and the rest of the family
-* [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) - The Fishshell Framework
+* [Fisherman](https://github.com/jorgebucaran/fisher) - The plugin manager for Fish
 
-Once Oh My Fish is installed:
+Once fisherman is installed:
 
-    omf install slavic-cat
-    
-[forked from Toaster](https://github.com/oh-my-fish/theme-toaster)
+```
+fisher install nzw0301/omf-theme-slavic-cat
+```
+
+[Forked from slavic-cat](https://github.com/yangwao/omf-theme-slavic-cat), which is [forked from Toaster](https://github.com/oh-my-fish/theme-toaster)
 
 ## Features
 
@@ -31,3 +28,4 @@ Once Oh My Fish is installed:
  * Fish shell vi mode indicator
  * Next line prompt
  * Two unicodes included!
+ * Clock
